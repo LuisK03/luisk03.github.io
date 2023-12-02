@@ -32,8 +32,12 @@ section {
 }
 /* Imagen */
 .tamaño_imagen {
-    width: 350px;
+    width: 500px;
     height: 300px;
+    
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 /* Footer */
